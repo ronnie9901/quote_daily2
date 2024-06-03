@@ -23,6 +23,11 @@ samples, guidance on mobile development, and a full API reference.
   
 
 
+
+https://github.com/ronnie9901/quote_daily2/assets/148763509/41d2771b-5c8e-4c5a-8f18-64dbaed44e86
+
+
+
   </div>
 
 
