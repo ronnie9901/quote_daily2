@@ -16,6 +16,16 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 
+<h1> DIALOG   </h1>
+  <img  height= "550" src="https://github.com/ronnie9901/quote_daily2/assets/148763509/978994ad-1c50-437e-8cef-08408c2be333"  />
+  <img  height= "550" src="https://github.com/ronnie9901/quote_daily2/assets/148763509/5ef923f7-1a50-4f59-a389-13270ee283cb"  />
+  <img  height= "550" src="https://github.com/ronnie9901/quote_daily2/assets/148763509/deb6bddc-c637-4d6f-82fb-aa9128761db6"  />
+  
+
+
+  </div>
+
+
 
 
 <h1>What is Factory Constructor ?</h1>
