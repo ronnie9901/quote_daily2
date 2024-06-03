@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:quote_daily/dialog/all/simple.dart';
 import 'package:quote_daily/invoice/invoice.dart';
+import 'package:quote_daily/random/randomquote.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,11 +15,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      // initialRoute: '/invoice',
+       initialRoute: '/quote',
 
       routes: {
         '/':(context) =>  dialog(),
+        '/quote':(context) =>  randomquotes(),
         // '/invoice':(context) =>  invoice()
+
+
       },
     );
   }
