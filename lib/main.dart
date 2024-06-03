@@ -14,11 +14,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/invoice',
+      // initialRoute: '/invoice',
 
       routes: {
         '/':(context) =>  dialog(),
-        '/invoice':(context) =>  invoice()
+        // '/invoice':(context) =>  invoice()
       },
     );
   }

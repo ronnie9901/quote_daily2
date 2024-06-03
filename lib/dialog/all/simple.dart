@@ -14,67 +14,74 @@ class _dialogState extends State<dialog> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
+        centerTitle: true,
         title: Text('dialog '),
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+      body: Padding(
+        padding: const EdgeInsets.only(left: 100),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
 
-        children: [
-       
-          TextButton(
-            onPressed: () => showDialog<String>(
-              context: context,
-              builder: (BuildContext context) => Dialog(
-                child:Center(
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
 
-                    children: [
-                      Text(' simple dialog page ')
-                    ],
+          children: [
+
+            TextButton(
+              onPressed: () => showDialog<String>(
+                context: context,
+                builder: (BuildContext context) => Dialog(
+                  child:Center(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+
+                      children: [
+                        Text(' simple dialog page ')
+                      ],
+                    ),
                   ),
                 ),
               ),
+              child:  Text('Simple  Dialog'),
             ),
-            child:  Text('Simple  Dialog'),
-          ),
-          TextButton(
-            onPressed: () => showDialog<String>(
-              context: context,
-              builder: (BuildContext context) => AlertDialog(
-               title: Text(' do yo want exit '),
-                actions: [
-                  Row(
-                    children: [
-                      Text(' cancel '),
-                     TextButton(onPressed: () {
-                    Navigator.of(context).pop();
-                     }, child: Text('back'))
-                    ],
-                  )
-                ],
+            TextButton(
+              onPressed: () => showDialog<String>(
+                context: context,
+                builder: (BuildContext context) => AlertDialog(
+                 title: Text(' do yo want exit '),
+                  actions: [
+                    Row(
+                      children: [
+                        InkWell(onTap: () {
+                          Navigator.of(context).pop();
+                        },child: Text(' cancel ')),
+                       TextButton(onPressed: () {
+                      Navigator.of(context).pop();
+                       }, child: Text('back'))
+                      ],
+                    )
+                  ],
+                ),
               ),
+              child:  Text('alert Dialog'),
             ),
-            child:  Text('alert Dialog'),
-          ),
-          TextButton(
-            onPressed: () => showDialog<String>(
-              context: context,
-              builder: (BuildContext context) => Dialog.fullscreen(
-                child:Center(
-                  child: Column(
-                    children: [
+            TextButton(
+              onPressed: () => showDialog<String>(
+                context: context,
+                builder: (BuildContext context) => Dialog.fullscreen(
+                  child:Center(
+                    child: Column(
+                      children: [
 
-                      Text(' full sreen  dialog page ')
-                    ],
+                        Text(' full sreen  dialog page ')
+                      ],
+                    ),
                   ),
                 ),
               ),
+              child:  Text('full Screen  Dialog'),
             ),
-            child:  Text('full Screen  Dialog'),
-          ),
 
-        ],
+          ],
+        ),
       ),
     );
   }
