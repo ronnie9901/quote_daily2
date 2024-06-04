@@ -21,10 +21,16 @@ samples, guidance on mobile development, and a full API reference.
   <img  height= "550" src="https://github.com/ronnie9901/quote_daily2/assets/148763509/5ef923f7-1a50-4f59-a389-13270ee283cb"  />
   <img  height= "550" src="https://github.com/ronnie9901/quote_daily2/assets/148763509/deb6bddc-c637-4d6f-82fb-aa9128761db6"  />
   
-
-
-
 https://github.com/ronnie9901/quote_daily2/assets/148763509/41d2771b-5c8e-4c5a-8f18-64dbaed44e86
+  </div>
+
+
+  
+<h1> random quotes   </h1>
+  <img  height= "550" src="https://github.com/ronnie9901/quote_daily2/assets/148763509/087a76f1-da0f-4a6c-8e2e-4c249a7e4ddb"  />
+
+
+https://github.com/ronnie9901/quote_daily2/assets/148763509/9b4a7fcc-9c10-4496-90fd-1d24dab2826b
 
 
 
