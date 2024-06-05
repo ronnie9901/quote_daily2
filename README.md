@@ -40,6 +40,10 @@ https://github.com/ronnie9901/quote_daily2/assets/148763509/41d2771b-5c8e-4c5a-8
   <img  height= "550" src="https://github.com/ronnie9901/quote_daily2/assets/148763509/313e6652-8a44-49aa-bcb5-602fac343a58"  />
 
 
+
+https://github.com/ronnie9901/quote_daily2/assets/148763509/e164f98c-d8b1-455b-a108-5f199d83c119
+
+
   </div>
 
 
