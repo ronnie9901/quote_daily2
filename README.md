@@ -30,11 +30,18 @@ https://github.com/ronnie9901/quote_daily2/assets/148763509/41d2771b-5c8e-4c5a-8
   <img  height= "550" src="https://github.com/ronnie9901/quote_daily2/assets/148763509/087a76f1-da0f-4a6c-8e2e-4c249a7e4ddb"  />
 
 
-https://github.com/ronnie9901/quote_daily2/assets/148763509/9b4a7fcc-9c10-4496-90fd-1d24dab2826b
+  
+   https://github.com/ronnie9901/quote_daily2/assets/148763509/9b4a7fcc-9c10-4496-90fd-1d24dab2826b
 
+  </div>
+
+  
+  <h1> toggalview   </h1>
+  <img  height= "550" src="https://github.com/ronnie9901/quote_daily2/assets/148763509/313e6652-8a44-49aa-bcb5-602fac343a58"  />
 
 
   </div>
+
 
 
 
